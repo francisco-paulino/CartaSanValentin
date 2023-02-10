@@ -117,8 +117,9 @@ body {
 }
 
 .six img {
-  height: 400px;
-  width: 400px;
+  display: inline-block;
+  max-width: 45%;
+  height: auto;
   border: 3px solid #0a0a0a;
   border-radius: 50%;
 }
