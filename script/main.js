@@ -256,11 +256,6 @@ const animationTimeline = () => {
       },
       0.3
     )
-    .to(".six", 0.5, {
-      opacity: 0,
-      y: 30,
-      zIndex: "-1",
-    })
     .from(
       ".girl-dp-2",
       0.5,
