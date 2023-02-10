@@ -230,6 +230,14 @@ body {
   font-weight: lighter;
 }
 
+.six img {
+  display: inline-block;
+  max-width: 55%;
+  height: auto;
+  border: 2px solid #0a0a0a;
+  border-radius: 50%;
+}
+
 #replay {
   z-index: 3;
   cursor: pointer;
