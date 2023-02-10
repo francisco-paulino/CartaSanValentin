@@ -273,6 +273,12 @@ const animationTimeline = () => {
       },
       "-=2"
     )
+    .from(".hat", 0.5, {
+      x: -100,
+      y: 350,
+      rotation: -180,
+      opacity: 0,
+    })
     .staggerFrom(".nine p", 1, ideaTextTrans, 1.2)
     .to(
       ".last-smile",
