@@ -65,12 +65,12 @@ body {
   border-radius: 5px;
   padding: 10px;
   position: relative;
+  background-color: white;
 }
 
 .text-box p {
   margin: 0;
   text-align: left;
-  background-color: white;
 }
 
 .text-box span {
